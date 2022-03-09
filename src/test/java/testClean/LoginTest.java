@@ -14,7 +14,7 @@ public class LoginTest extends BaseTodoLy {
     @Test
     public void verifyLoginTodoLy(){
         mainPage.loginImage.click();
-        loginModal.emailTxtBox.setText("clean@upb22.com");
+        loginModal.emailTxtBox.setText("clean@upb222.com");
         loginModal.pwdTxtBox.setText("12345");
         loginModal.loginButton.click();
         Assertions.assertTrue(menuSection.logoutButton.isControlDisplayed(),
